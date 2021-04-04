@@ -1,0 +1,28 @@
+{
+  "name": "myssh",
+  "version": "1.0.0",
+  "description": "NodeJS CLI SSH Client",
+  "main": "index.js",
+  "bin": {
+    "@13circle/myssh": "bin/myssh",
+    "myssh": "bin/myssh"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "ssh",
+    "myssh"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.1.1",
+    "consola": "^2.15.3",
+    "esm": "^3.2.25",
+    "joi": "^17.4.0"
+  }
+}
