@@ -115,6 +115,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Vim
+*.swp
+
 # Configurations & SSH keys
 configs
 keys
